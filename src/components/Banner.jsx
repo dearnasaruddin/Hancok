@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const Banner = () => {
     return (
-        <section className='bg-[url("./src/assets/banner.png")] bg-no-repeat bg-center bg-cover'>
+        <section className='bg-[url("../src/assets/banner.jpg")] bg-no-repeat bg-center bg-cover'>
             <div className='bg-black/60 lg:bg-transparent'>
                 <div className="container px-2.5">
                     <div className="font-Oswald text-white pt-32 md:pt-36 lg:pt-[338px] pb-16 md:pb-22 lg:pb-[102px]">

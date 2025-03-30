@@ -23,8 +23,8 @@ function App() {
       <GamesSale />
       <Store />
       <Team />
-      <Faq/>
-      <Footer/>
+      <Faq />
+      <Footer />
     </>
   )
 }

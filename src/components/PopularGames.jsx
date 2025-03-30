@@ -16,7 +16,30 @@ const PopularGames = () => {
         autoplay: true,
         autoplaySpeed: 2000,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                    slidesToShow: .5,
+                }
+            }
+        ]
     };
 
     function SampleNextArrow(props) {
@@ -24,9 +47,27 @@ const PopularGames = () => {
         return (
             <div
                 className={className}
-                style={{ ...style, width: "40px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", border: "1px solid #fff", borderRadius: "50%", color: "#fff", position: "absolute", bottom: "82px", right: "16px", zIndex: "2" }}
-                onClick={onClick}
-            ><FaAngleRight /></div>
+                style={{
+                    ...style,
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    border: "1px solid #fff",
+                    borderRadius: "50%",
+                    color: "#fff",
+                    position: "absolute",
+                    bottom: "82px",
+                    right: "16px",
+                    zIndex: "2"
+                }}
+
+                onClick={onClick}>
+
+                <FaAngleRight />
+
+            </div>
         );
     }
 
@@ -35,17 +76,34 @@ const PopularGames = () => {
         return (
             <div
                 className={className}
-                style={{ ...style, width: "40px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", border: "1px solid #fff", borderRadius: "50%", color: "#fff", position: "absolute", bottom: "22px", right: "16px", zIndex: "2" }}
-                onClick={onClick}
-            ><FaAngleLeft /></div>
+                style={{
+                    ...style,
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    border: "1px solid #fff",
+                    borderRadius: "50%",
+                    color: "#fff",
+                    position: "absolute",
+                    bottom: "22px",
+                    right: "16px",
+                    zIndex: "2"
+                }}
+                onClick={onClick}>
+
+                <FaAngleLeft />
+
+            </div>
         );
     }
 
     return (
-        <section className='bg-secondaryBg py-90'>
-            <div className='container relative'>
-                <div className='absolute right-0 top-0'>
-                    <h2 className='max-w-[458px] font-Barlow-Condensed font-semibold text-[38px] tracking-[2.66px] text-right ml-auto text-white relative mb-14 after:content-[""] after:w-[105px] after:h-1 after:bg-primary after:absolute after:bottom-3 after:right-[121px]'>POPULAR GAMES AROUND THE
+        <section className='bg-secondaryBg py-10 md:py-90'>
+            <div className='container px-2.5 relative pt-12 sm:pt-16 lg:pt-12 xl:pt-0'>
+                <div className='absolute right-2.5 xl:right-0 top-0'>
+                    <h2 className='max-w-96 md:max-w-[458px] font-Barlow-Condensed font-semibold text-2xl md:text-[38px] leading-normal tracking-[2.66px] text-right ml-auto text-white relative  sm:after:content-[""] sm:after:w-14 md:after:w-[105px] sm:after:h-1 after:bg-primary after:absolute after:bottom-2 md:after:bottom-3 sm:after:right-20 md:after:right-[121px]'>POPULAR GAMES AROUND THE
                         WORLD</h2>
                 </div>
 
@@ -73,7 +131,7 @@ const PopularGames = () => {
                 </Slider>
 
             </div>
-        </section>
+        </section >
     )
 }
 

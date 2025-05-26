@@ -49,7 +49,7 @@ export default {
       }
       ,
       backgroundImage: {
-        'bannerImg': "url('./src/assets/banner.png')",
+        'bannerImg': "url('./src/assets/banner.webp')",
       }
     }
 

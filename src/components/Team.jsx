@@ -1,8 +1,8 @@
 import React from 'react'
-import teamOne from '../assets/teamOne.png'
-import teamTwo from '../assets/teamTwo.png'
-import teamThree from '../assets/teamThree.png'
-import teamFour from '../assets/teamFour.png'
+import teamOne from '../assets/teamOne.webp'
+import teamTwo from '../assets/teamTwo.webp'
+import teamThree from '../assets/teamThree.webp'
+import teamFour from '../assets/teamFour.webp'
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Team = () => {

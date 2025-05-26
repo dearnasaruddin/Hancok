@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCheck, FaAngleDoubleRight } from "react-icons/fa";
-import aboutImg from '../assets/about.png'
+import aboutImg from '../assets/about.webp'
 
 const About = () => {
     return (

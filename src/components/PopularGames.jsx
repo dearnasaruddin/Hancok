@@ -1,6 +1,6 @@
 import React from 'react'
-import slideImgOne from '../assets/slideImgOne.png';
-import slideImgTwo from '../assets/slideImgTwo.png';
+import slideImgOne from '../assets/slideImgOne.webp';
+import slideImgTwo from '../assets/slideImgTwo.webp';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

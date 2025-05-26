@@ -1,9 +1,9 @@
 import React from 'react'
-import horizon from '../assets/horizon.png'
-import disciples from '../assets/disciples.png'
-import footballManager from '../assets/footballManager.png'
-import updateXII from '../assets/updateXII.png'
-import slideImg from '../assets/slideImg.png'
+import horizon from '../assets/horizon.webp'
+import disciples from '../assets/disciples.webp'
+import footballManager from '../assets/footballManager.webp'
+import updateXII from '../assets/updateXII.webp'
+import slideImg from '../assets/slideImg.webp'
 
 const GamesSale = () => {
 

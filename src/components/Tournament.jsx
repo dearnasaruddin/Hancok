@@ -1,11 +1,11 @@
 import React from 'react'
-import liveImgOne from '../assets/liveImgOne.png'
-import liveImgTwo from '../assets/liveImgTwo.png'
-import liveImgThree from '../assets/liveImgThree.png'
-import teamDeltaLogo from '../assets/teamDeltaLogo.png'
-import teamAlphaLogo from '../assets/teamAlphaLogo.png'
-import teamDevilsLogo from '../assets/teamDevilsLogo.png'
-import teamNinjaLogo from '../assets/teamNinjaLogo.png'
+import liveImgOne from '../assets/liveImgOne.webp'
+import liveImgTwo from '../assets/liveImgTwo.webp'
+import liveImgThree from '../assets/liveImgThree.webp'
+import teamDeltaLogo from '../assets/teamDeltaLogo.webp'
+import teamAlphaLogo from '../assets/teamAlphaLogo.webp'
+import teamDevilsLogo from '../assets/teamDevilsLogo.webp'
+import teamNinjaLogo from '../assets/teamNinjaLogo.webp'
 
 const Tournament = () => {
     return (

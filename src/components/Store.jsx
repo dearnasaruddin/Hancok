@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import gameController from '../assets/gameController.png'
-import keyboard from '../assets/keyboard.png'
-import monitor from '../assets/monitor.png'
-import mouse from '../assets/mouse.png'
+import gameController from '../assets/gameController.webp'
+import keyboard from '../assets/keyboard.webp'
+import monitor from '../assets/monitor.webp'
+import mouse from '../assets/mouse.webp'
 
 const Store = () => {
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import galOne from '../assets/galOne.png'
-import galTwo from '../assets/galTwo.png'
-import galThree from '../assets/galThree.png'
-import galFour from '../assets/galFour.png'
-import galFive from '../assets/galFive.png'
-import galSix from '../assets/galSix.png'
+import galOne from '../assets/galOne.webp'
+import galTwo from '../assets/galTwo.webp'
+import galThree from '../assets/galThree.webp'
+import galFour from '../assets/galFour.webp'
+import galFive from '../assets/galFive.webp'
+import galSix from '../assets/galSix.webp'
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {

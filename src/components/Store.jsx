@@ -82,7 +82,7 @@ const Store = () => {
           <Slider {...settings}>
             {/* <div className="h-[465px] flex gap-x-5 justify-between items-center"></div> */}
             <div>
-              <div className='border-x-8 lg:border-x-[10px] border-[#191919] h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
+              <div className='border-x-8 lg:border-x-[10px] border-primaryBg h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
                 <h3 className='font-Oswald font-medium text-2xl lg:text-[40px] tracking-[0.4px] text-center text-white'>$95</h3>
                 <img src={gameController} alt="gameController" className='mx-auto w-2/3' />
                 <div>
@@ -92,7 +92,7 @@ const Store = () => {
               </div>
             </div>
             <div>
-              <div className='border-x-8 lg:border-x-[10px] border-[#191919] h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
+              <div className='border-x-8 lg:border-x-[10px] border-primaryBg h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
                 <h3 className='font-Oswald font-medium text-2xl lg:text-[40px] tracking-[0.4px] text-center text-white'>$32</h3>
                 <img src={keyboard} alt="keyboard" className='mx-auto w-2/3' />
                 <div>
@@ -102,7 +102,7 @@ const Store = () => {
               </div>
             </div>
             <div>
-              <div className='border-x-8 lg:border-x-[10px] border-[#191919] h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
+              <div className='border-x-8 lg:border-x-[10px] border-primaryBg h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
                 <h3 className='font-Oswald font-medium text-2xl lg:text-[40px] tracking-[0.4px] text-center text-white'>$103</h3>
                 <img src={monitor} alt="monitor" className='mx-auto w-2/3' />
                 <div>
@@ -112,7 +112,7 @@ const Store = () => {
               </div>
             </div>
             <div>
-              <div className='border-x-8 lg:border-x-[10px] border-[#191919] h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
+              <div className='border-x-8 lg:border-x-[10px] border-primaryBg h-64 sm:h-72 lg:h-80 xl:h-[465px] flex flex-col justify-between pt-4 lg:pt-[22px] pb-4 lg:pb-6 bg-secondary'>
                 <h3 className='font-Oswald font-medium text-2xl lg:text-[40px] tracking-[0.4px] text-center text-white'>$80</h3>
                 <img src={mouse} alt="mouse" className='mx-auto w-2/3' />
                 <div>
